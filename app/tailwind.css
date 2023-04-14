@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .form-base {
+        @apply flex flex-col gap-1 border-2 w-full p-2 text-xs text-black
+    }
+}
